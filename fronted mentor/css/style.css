@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+/* variables definition */
+
+:root {
+
+    /* The designs were created to the following widths: */
+    --mobile_width: 375px;
+    --desktop_width: 1440px;
+
+    /* ### Primary */
+    --dark_cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    
+    /* ### Neutral */
+    --very_dark_blue: hsl(212, 21%, 14%);
+    --dark_grayish_blue: hsl(228, 12%, 48%);
+
+    --paragraph_size: 14px;
+}
+
+.montserrat-500 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.divgrande{ 
+display: flex;
+flex-direction: column;
+margin-left: auto;
+width: 375px;
+display: block;
+margin-right: auto;
+background-color: white;
+border-radius: 20px;
+}
+
+
+.texto{
+
+background-color: #ffffff;
+   font-weight: bold;
+   font-size: 10pt;
+   padding:  100px;
+   border-radius: 20px; 
+   width: 175px;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PREVIUS STYLE INFO */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* ************************** */
+
+body{
+
+background-color: antiquewhite;
+
+
+}
+
+.imagen2{
+
+width: 375px;
+height: 3
+00px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+
+
+}
+
+
+.dinero{
+color: green;
+font-size: 35px;
+
+
+
+}
+
+.add{
+
+color: #ffffff;
+  background-color: green;
+font-size: 30px;
+
+}
+
+@media (min-width: 1440px) {
+  .divgrande {
+    flex-direction: row;
+    width: 1000px;
+  display: flex;
+  background-color:rgba(255, 222, 173, 0) ;
+  }
+
+.imagen{
+width: 100px;
+margin-left:  45px;
+margin-top: 100px;
+display: flex;
+
+}
+.imagen2{
+
+width: 550px;
+display: flex;
+margin-left: 160px
+
+}
+.texto{
+display: flex;
+  margin-left: 600px;
+  margin-top: 100px;
+  margin-right: -12px;
+  width: 700px;
+  padding: 45px;
+}
+
+}
+
